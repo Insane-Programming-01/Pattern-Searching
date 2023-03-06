@@ -1,0 +1,20 @@
+Also know as String Searching Algorithm, It is considered a part of String Algorithms
+
+Pattern searching is searching a string withing another string
+
+The complexity of pattern searching varies from algorithm to algorithm.
+
+They are very useful in performing a search in the database
+
+Helps to find patterns in sub string of larger string
+
+1. Naive Searching Algorithm
+
+i) Simplest Method which uses brute force approach
+ii) It compares the first character of pattern with searchable text
+iii) If match is found, pointer in both strings are advanced.
+iv) If not found pointer of text is incremented and pointer of pattern in reset
+
+Complexity - O(m*(n-m)) where,
+n = length of text
+m = length of pattern
